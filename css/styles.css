@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.backgroundWrapper {
+    background: url('../images/background.svg') no-repeat center center;
+    position: fixed;
+    z-index: -2;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    top: -30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.links a {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #1251AF;
+    text-decoration: underline;
+}
+
+.contact {
+    background: #1251AF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    transition: background .3s;
+}
+
+.contact:hover {
+    background: #1a73f8;
+    color: white;
+    text-decoration: underline;
+}
+
+.icon {
+    padding-left: 25px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    width: 60px;
+}
+
+.icon img {
+    width: 100%;
+    height: auto;
+}
+
+.homeWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 12%;
+    padding-right: 5%;
+    gap: 5%;
+}
+
+.myPortrait {
+    width: 1000px;
+}
+
+.myPortrait img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+    color: white;
+    font-family: 'Quicksand', 'sans-serif';
+}
+
+.descriptionHead {
+    display: flex;
+    align-self: center;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.descriptionBody {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.contactWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    color: black;
+    font-family: 'Quicksand';
+    gap: 80px;
+}
+
+.contactBody img {
+    width: 125px;
+    height: auto;
+}
+
+.contactHead {
+    font-size: 65px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: 700;
+}
+
+.contactBody {
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.contactBody span {
+    padding-left: 20px;
+}
+
+.videosWrapper {
+    width: 100vw;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.vidText {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.vidRow {
+    display: flex;
+    gap: 12px;
+}
+
+.calendarEmbed {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.calendarText {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 55px;
+    font-weight: 300;
+}
+
+.videosLabelSpan {
+    font-size: 30px;
+    font-family: 'Quicksand';
+    background: #1251AF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.gmail {
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+}
