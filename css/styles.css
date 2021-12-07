@@ -6,6 +6,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    overflow-y: scroll;
+}
+
 .backgroundWrapper {
     background: url('../images/background.svg') no-repeat center center;
     position: fixed;
@@ -79,7 +83,7 @@ nav {
 
 .homeWrapper {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding-top: 150px;
     padding-bottom: 50px;
     padding-left: 12%;
@@ -121,49 +125,48 @@ nav {
 }
 
 .contactWrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background: white;
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 35%;
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     border-radius: 25px;
-    margin-left: 20%;
-    margin-right: 20%;
-
+    margin-left: 35%;
+    margin-right: 35%;
     color: black;
     font-family: 'Quicksand';
-    gap: 80px;
+    gap: 30px;
 }
 
 .contactBody img {
-    width: 125px;
+    width: 45px;
     height: auto;
 }
 
 .contactHead {
-    font-size: 65px;
-    padding-top: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     font-weight: 700;
 }
 
 .contactBody {
-    font-size: 50px;
-    font-weight: 500;
     display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-weight: 500;
     flex-direction: column;
-    gap: 40px;
-    padding-bottom: 50px;
+    gap: 5px;
+    padding-bottom: 15px;
 }
 
 .contactBody span {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .videosWrapper {
@@ -176,23 +179,24 @@ nav {
 }
 
 .vidText {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
     color: white;
     font-family: 'Quicksand';
     font-size: 50px;
     font-weight: 500;
+    text-align: center;
 }
 
 .vidRow {
     display: flex;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 .calendarEmbed {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 .calendarText {
@@ -203,6 +207,10 @@ nav {
     font-family: 'Quicksand';
     font-size: 55px;
     font-weight: 300;
+}
+
+.videosLabel {
+    padding-bottom: 30px;
 }
 
 .videosLabelSpan {
