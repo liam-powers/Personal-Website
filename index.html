@@ -6,33 +6,21 @@
     <title>Home | Liam Powers</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/moreham.css">
     <link rel="shortcut icon" href="images/notes.ico" />
     <script src="js/script.js"></script>
 </head>
 <body>
-    <nav id="full">
+    <nav>
         <a href="index.html" class="icon">
             <img src="images/home.svg">
         </a>
-
-        <div class="links">
+        <div class="stacked-links">
             <a href="videos.html">videos</a>
-            <a href="calendar.html">calendar</a>
-            <a href="contact.html"> <span class="contact">contact</span></a>
+            <a href="calendar.html">calendar</a>    
         </div>
-    </nav>
-
-    <nav id="compressed" style="display:none;">
-        <button id="hamburger" class="hamburger hamburger--elastic" type="button">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-        </button> 
-        <div class="dropdown">
-            <div style="padding-top:84px"></div>
-            <a class="ref" value="videos" href="videos.html" onclick="hideMenu()">videos</a>
-            <a class="ref" value="calendar" href="calendar.html" onclick="hideMenu()">calendar</a>
-            <a class="ref" value="contact" href="contact.html" onclick="hideMenu()">contact</a>
+        <div class="reg-links">
+            <a href="contact.html"> <span class="contact">contact</span></a>
         </div>
     </nav>
 
