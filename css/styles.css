@@ -36,8 +36,8 @@ nav {
 }
 
 .stacked-links a, .reg-links a {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     color: black;
@@ -47,9 +47,9 @@ nav {
 }
 
 .stacked-links {
-    align-self: flex-end;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .stacked-links a:hover, .reg-links a:hover {
@@ -90,10 +90,10 @@ nav {
 .homeWrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     padding-top: 150px;
     padding-bottom: 50px;
-    padding-left: 12%;
+    padding-left: 5%;
     padding-right: 5%;
     gap: 5%;
 }
@@ -139,19 +139,38 @@ nav {
 }
 
 .contactWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-shrink: 0;
     background: white;
-    text-align: center;
-    position: relative;
-    top: 35%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    height: max-content;
+    width: 100%;
+    max-width: 960px;
+    margin-bottom: 50px;
     border-radius: 25px;
-    margin-left: 35%;
-    margin-right: 35%;
-    color: black;
+    padding: 10px 15px 30px 15px;
+    text-align: center;
     font-family: 'Quicksand';
-    gap: 30px;
+    color: black;
+}
+
+.wrapAgain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contactHead {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contactBody {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .contactBody img {
@@ -159,28 +178,16 @@ nav {
     height: auto;
 }
 
-.contactHead {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 40px;
-    padding-top: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-weight: 700;
-}
-
-.contactBody {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    font-weight: 500;
-    flex-direction: column;
-    gap: 5px;
-    padding-bottom: 15px;
-}
-
 .contactBody span {
     padding-left: 10px;
+}
+
+.gmail {
+
+}
+
+.instagram {
+
 }
 
 .videosWrapper {
@@ -211,12 +218,15 @@ nav {
 .calendarEmbed {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 50px 2% 50px 2%;
 }
 
 .calendarText {
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 200px;
     color: white;
     font-family: 'Quicksand';
@@ -240,16 +250,3 @@ nav {
     color: white;
     font-weight: 700;
 }
-
-.gmail {
-    display: flex;
-    align-items: center;
-    padding-left: 180px;
-}
-
-.instagram {
-    display: flex;
-    align-items: center;
-    padding-left: 180px;
-}
-
