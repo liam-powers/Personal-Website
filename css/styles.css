@@ -141,12 +141,10 @@ nav {
 .contactWrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
     flex-shrink: 0;
+    top: 30%;
     background: white;
     height: max-content;
-    width: 100%;
     max-width: 960px;
     margin-bottom: 50px;
     border-radius: 25px;
@@ -161,6 +159,7 @@ nav {
     justify-content: center;
     align-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .contactHead {
@@ -180,14 +179,6 @@ nav {
 
 .contactBody span {
     padding-left: 10px;
-}
-
-.gmail {
-
-}
-
-.instagram {
-
 }
 
 .videosWrapper {
