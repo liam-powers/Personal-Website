@@ -91,7 +91,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 50px;
     padding-left: 5%;
     padding-right: 5%;
@@ -141,39 +141,36 @@ nav {
 .contactWrapper {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
-    top: 30%;
-    background: white;
-    height: max-content;
-    max-width: 960px;
-    margin-bottom: 50px;
-    border-radius: 25px;
-    padding: 10px 15px 30px 15px;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    gap: 30px;
     text-align: center;
     font-family: 'Quicksand';
-    color: black;
-}
-
-.wrapAgain {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 100%;
+    color: white;
 }
 
 .contactHead {
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.contactBody {
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 500;
 }
 
+.contactBody {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    align-items: center;
+    gap: 30px;
+}
+
+.contactBody a {
+    color: white; 
+}
+
 .contactBody img {
-    width: 45px;
+    width: 65px;
     height: auto;
 }
 
@@ -183,7 +180,7 @@ nav {
 
 .videosWrapper {
     width: 100vw;
-    padding-top: 180px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,7 +215,7 @@ nav {
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 200px;
+    padding-top: 150px;
     color: white;
     font-family: 'Quicksand';
     font-size: 55px;
