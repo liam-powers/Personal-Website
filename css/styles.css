@@ -188,17 +188,17 @@ nav {
 }
 
 .vidText {
-    padding: 30px;
+    padding: 0px 15% 60px 15%;
     color: white;
     font-family: 'Quicksand';
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 300;
     text-align: center;
 }
 
 .vidRow {
     display: flex;
-    gap: 12px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -220,21 +220,4 @@ nav {
     font-family: 'Quicksand';
     font-size: 55px;
     font-weight: 300;
-}
-
-.videosLabel {
-    padding-bottom: 30px;
-}
-
-.videosLabelSpan {
-    font-size: 30px;
-    font-family: 'Quicksand';
-    background: #1251AF;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 50px;
-    color: white;
-    font-weight: 700;
 }
