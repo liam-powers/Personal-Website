@@ -188,12 +188,16 @@ nav {
 }
 
 .vidText {
-    padding: 0px 15% 60px 15%;
+    padding: 0px 18% 60px 18%;
     color: white;
     font-family: 'Quicksand';
     font-size: 25px;
     font-weight: 300;
     text-align: center;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .vidRow {
